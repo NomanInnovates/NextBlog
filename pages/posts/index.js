@@ -1,7 +1,5 @@
-import FeaturedPosts from "../components/homePage/FeaturedPosts";
-import Hero from "../components/homePage/Hero";
-import styles from "../styles/Home.module.css";
-
+import Postgrid from "../../components/posts/post-grid";
+import classes from "../../styles/all-posts.module.css";
 let dummy = [
   {
     title: "Getting Started with nextjs",
@@ -44,11 +42,11 @@ let dummy = [
     date: "2020-02-19",
   },
 ];
-export default function Home() {
+export default function AllPostPage() {
   return (
-    <div>
-      <Hero />
-      <FeaturedPosts posts={dummy} />
-    </div>
+    <section className={classes.posts}>
+      <h1>All Posts</h1>
+      <Postgrid posts={dummy} />
+    </section>
   );
 }
