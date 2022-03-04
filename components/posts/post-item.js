@@ -14,7 +14,7 @@ function PostItem({ post }) {
 
   return (
     <li className={classes.post}>
-      <Link href={`/post/${slug}`}>
+      <Link href={`/posts/${slug}`}>
         <a>
           <div className={classes.image}>
             <Image
