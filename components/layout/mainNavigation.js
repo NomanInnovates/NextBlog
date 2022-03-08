@@ -17,7 +17,7 @@ export default function MainNavigation() {
             <Link href="/posts">Post</Link>
           </li>
           <li>
-            <Link href="/contact">contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
           <li></li>
         </ul>
