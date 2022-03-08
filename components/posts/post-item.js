@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import classes from "../../styles/post-item.module.css";
+
 function PostItem({ post }) {
   const { title, image, excerpt, date, slug } = post;
   const formatedDate = new Date(date).toLocaleDateString("en-US", {
