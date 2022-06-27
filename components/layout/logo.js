@@ -1,7 +1,7 @@
 import React from "react";
 
 function logo() {
-  return <div>Max nest blog</div>;
+  return <div>Nomi's blogs</div>;
 }
 
 export default logo;
